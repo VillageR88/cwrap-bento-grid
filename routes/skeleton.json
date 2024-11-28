@@ -1,0 +1,506 @@
+{
+  "head": {
+    "title": "New Candy Wrapper project",
+    "link": [
+      {
+        "rel": "shortcut icon",
+        "href": "favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap",
+        "type": "text/css"
+      }
+    ],
+    "meta": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "description",
+        "content": "New Candy Wrapper project."
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      }
+    ]
+  },
+  "fonts": [],
+  "root": {
+    "--colorPurple100": "#DBD1FC",
+    "--colorPurple500": "#7551DC",
+    "--colorYellow100": "#F9EEE2",
+    "--colorYellow500": "#FFCC6A",
+    "--colorTitaniumWhite": "#FFFFFF",
+    "--colorMidnightBlack": "#121212"
+  },
+  "classroom": [
+    {
+      "name": "main > div",
+      "type": "element",
+      "style": "border-radius: 10px;"
+    },
+    {
+      "name": "textPreset1",
+      "type": "class",
+      "style": "font-size: 62px; line-height: 93.5%; letter-spacing: -3px; font-weight: 500; margin: 0;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "font-size: 54px; line-height: 48px; letter-spacing: -0.4px;"
+        },
+        {
+          "query": "max-width: 768px",
+          "style": "font-size: 46px; line-height: 42px; letter-spacing: -0.4px;"
+        }
+      ]
+    },
+    {
+      "name": "textPreset4",
+      "type": "class",
+      "style": "font-size: 18px; line-height: 111%; letter-spacing: 0px;"
+    },
+    {
+      "name": "textPreset3",
+      "type": "class",
+      "style": "font-size: 32px; line-height: 28px; letter-spacing: -1.9px; font-weight: 500;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "font-size: 26px; line-height: 26px; letter-spacing: -0.6px;"
+        }
+      ]
+    },
+    {
+      "name": "textPreset2",
+      "type": "class",
+      "style": "font-size: 40px; line-height: 36px; letter-spacing: -2px; font-weight: 500;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "font-size: 36px; line-height: 30px; letter-spacing: -0.6px;"
+        },
+        {
+          "query": "max-width: 768px",
+          "style": "font-size: 32px; line-height: 28px; letter-spacing: -0.6px;"
+        }
+      ]
+    }
+  ],
+  "element": "body",
+  "style": "background-color: #F6F5F6; margin: 0; padding: 32px 16px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; min-height: 100dvh;",
+  "children": [
+    {
+      "element": "main",
+      "style": "display: grid; width: 1120px; height: fit-content; grid-template-areas: \"div7 div1 div1 div4\"\n\"div7 div2 div3 div4\"\n\"div8  div2 div3 div4\"\n\"div8 div6 div5 div5\"; gap: 32px; grid-template-rows: 324px 59px 156px 246px; grid-template-columns: 256px 256px 256px 256px; font-family: DM Sans;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "grid-template-areas: \"div1\"\n\"div2\"\n\"div3\"\n\"div4\"\n\"div5\"\n\"div6\"\n\"div7\"\n\"div8\"; grid-template-columns: 343px; grid-template-rows: auto;"
+        },
+        {
+          "query": "max-width: 1200px",
+          "style": "grid-template-areas: \"div1 div1\"\n\"div2 div3\"\n\"div4 div4\"\n\"div5 div5\"\n\"div6 div6\"\n\"div7 div8\"; grid-template-columns: 328px 328px; grid-template-rows: 324px 247px 496px 246px 131px 354px; align-items: center; justify-content: center;"
+        }
+      ],
+      "children": [
+        {
+          "element": "div",
+          "style": "grid-area: div1; background-color: var(--colorPurple500); padding: 62px 32px; text-align: center; display: flex; flex-direction: column; align-items: center;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "padding: 40px 28px;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "padding: 72px 76px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "h1",
+              "attributes": {
+                "class": "textPreset1"
+              },
+              "style": "color: var(--colorTitaniumWhite);",
+              "children": [
+                {
+                  "element": "span",
+                  "style": "color: var(--colorYellow500);",
+                  "text": "10x"
+                },
+                {
+                  "element": "span",
+                  "style": "font-style: italic;",
+                  "text": "Faster"
+                }
+              ],
+              "text": "Social Media cwrapSpan cwrapSpan with AI"
+            },
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-five-stars.webp"
+              },
+              "style": "width: 192px; height: fit-content; display: flex; margin-top: 24px;"
+            },
+            {
+              "element": "p",
+              "attributes": {
+                "class": "textPreset4"
+              },
+              "style": "color: var(--colorTitaniumWhite); margin: 8px 0 0 0;",
+              "text": "Over 4,000 5-star reviews"
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div2; background-color: var(--colorTitaniumWhite); padding: 24px; overflow: hidden;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "padding: 16px; height: fit-content;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "height: 247px; box-sizing: border-box;"
+            }
+          ],
+          "children": [
+            {
+              "element": "ul",
+              "style": "display: flex; height: fit-content; width: fit-content; margin: 0; padding: 0; list-style: none; gap: 10px;",
+              "children": [],
+              "blueprint": {
+                "element": "li",
+                "count": "2",
+                "children": [
+                  {
+                    "element": "div",
+                    "style": "width: 42px;height: 42px;border-radius: 50%;background-color: var(--colorYellow500);display: flex;align-items: center;justify-content: center",
+                    "children": [
+                      {
+                        "element": "img",
+                        "attributes": {
+                          "src": "static/images/cwrapArray[instagram,twitter].svg",
+                          "alt": "illustration"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "element": "section",
+                    "children": [
+                      {
+                        "element": "h2",
+                        "text": "@YourCo",
+                        "style": "font-size: 16px;line-height: 90%;letter-spacing: -0.6px;font-weight: 500;margin: 0;padding: 0"
+                      },
+                      {
+                        "element": "p",
+                        "text": "cwrapArray[12,8]K Followers",
+                        "style": "color: #9E9E9E;font-size: 12px;letter-spacing: -0.4px;margin: 0;padding: 0"
+                      }
+                    ],
+                    "style": "margin: 0;padding: 0;display: flex;flex-direction: column;gap: 8px"
+                  }
+                ],
+                "style": "height: 66px;width: 155px;border-radius: 34px;background-color: var(--colorTitaniumWhite);box-shadow: -10px 11px 24px rgba(98,26,123,0.05);display: flex;align-items: center;padding: 12px 24px 12px 12px;box-sizing: border-box;gap: 8px"
+              }
+            },
+            {
+              "element": "h2",
+              "attributes": {
+                "class": "textPreset3"
+              },
+              "style": "margin: 20px 0 0 0;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "width: fit-content; white-space: normal; margin: 16px 0 0 0; padding: 0; height: fit-content;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "height: 78px; white-space: pre-line; margin-top: 54px;"
+                }
+              ],
+              "text": "Manage multiple accounts and\nplatforms."
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div3; background-color: var(--colorYellow500); padding: 24px 24px 0 24px; overflow: hidden;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "padding: 16px 16px 0 16px; height: 216px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "h2",
+              "attributes": {
+                "class": "textPreset3"
+              },
+              "style": "margin: 0;",
+              "text": "Maintain a consistent posting schedule."
+            },
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-consistent-schedule.webp",
+                "alt": "illustration"
+              },
+              "style": "width: 208px; height: fit-content; margin-top: 16px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "height: 157px;"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div4; background-color: var(--colorPurple100); padding: 50px 32px 50px 32px; overflow: hidden;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "padding: 32px 17px;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "align-items: center; display: flex; flex-direction: column; padding: 32px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "h2",
+              "attributes": {
+                "class": "textPreset3"
+              },
+              "style": "margin: 0;",
+              "text": "Schedule to social media."
+            },
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-schedule-posts.webp",
+                "alt": "illustration"
+              },
+              "style": "height: 318px; width: fit-content; margin-top: 24px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "width: 308px; height: 272px;"
+                }
+              ]
+            },
+            {
+              "element": "p",
+              "attributes": {
+                "class": "textPreset4"
+              },
+              "style": "margin: 24px 0 0 0;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "width: fit-content;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "width: 359px; text-align: center;"
+                }
+              ],
+              "text": "Optimize post timings to publish content at the perfect time for your audience."
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div5; background-color: var(--colorPurple500); padding: 23px 24px; display: flex; gap: 8px; align-items: center;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "flex-direction: column;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "display: flex; justify-content: center; gap: 40px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-grow-followers.webp",
+                "alt": "illustration"
+              },
+              "style": "width: 227px; height: fit-content;"
+            },
+            {
+              "element": "h2",
+              "attributes": {
+                "class": "textPreset2"
+              },
+              "style": "color: var(--colorTitaniumWhite);",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "text-align: center;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin: 0; width: 257px;"
+                }
+              ],
+              "text": "Grow followers with non-stop content."
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div6; background-color: var(--colorTitaniumWhite); padding: 24px 40px 24px 24px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "flex-direction: column; padding: 24px; align-items: baseline;"
+            },
+            {
+              "query": "max-width: 1200px",
+              "style": "display: flex; align-items: center; justify-content: space-between;"
+            }
+          ],
+          "children": [
+            {
+              "element": "section",
+              "style": "",
+              "children": [
+                {
+                  "element": "h2",
+                  "attributes": {
+                    "class": "textPreset1"
+                  },
+                  "style": "margin: 0;",
+                  "text": ">56%"
+                },
+                {
+                  "element": "p",
+                  "style": "margin: 15px 0 0 0;",
+                  "text": "faster audience growth"
+                }
+              ]
+            },
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-audience-growth.webp",
+                "alt": "illustration"
+              },
+              "style": "width: 178px; height: fit-content; margin-top: 38px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": ";"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin: 0;"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div7; background-color: var(--colorYellow100); padding: 78px 32px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 768px",
+              "style": "padding: 32px 28px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "h2",
+              "attributes": {
+                "class": "textPreset2"
+              },
+              "style": "margin: 0;",
+              "children": [
+                {
+                  "element": "span",
+                  "style": "font-style: italic; color: var(--colorPurple500);",
+                  "text": "quicker."
+                }
+              ],
+              "text": "Create and schedule content cwrapSpan"
+            },
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-create-post.webp",
+                "alt": "illustration"
+              },
+              "style": "width: 192px; height: fit-content; margin-top: 24px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "padding: 0; margin: 24px 0 0 0;"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "style": "grid-area: div8; background-color: var(--colorYellow500); padding: 24px 24px;",
+          "children": [
+            {
+              "element": "h2",
+              "attributes": {
+                "class": "textPreset2"
+              },
+              "style": "white-space: pre-wrap; margin: 0;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "white-space: normal;"
+                }
+              ],
+              "text": "Write your content\nusing AI."
+            },
+            {
+              "element": "img",
+              "attributes": {
+                "src": "static/images/illustration-ai-content.webp",
+                "alt": "illustration"
+              },
+              "style": "height: 222px; width: fit-content; margin-top: 55px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 768px",
+                  "style": "margin: 24px 0 0 0;"
+                },
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin: 24px 0 0 0;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
