@@ -147,7 +147,8 @@
             {
               "element": "img",
               "attributes": {
-                "src": "static/images/illustration-five-stars.webp"
+                "src": "static/images/illustration-five-stars.webp",
+                "alt": "illustration"
               },
               "style": "width: 192px; height: fit-content; display: flex; margin-top: 24px;"
             },
